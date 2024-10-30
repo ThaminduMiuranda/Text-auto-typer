@@ -31,6 +31,7 @@ Ensure that the Word document you want to use is saved and available. Note the f
 ### Step 2: Run the Script
 
 1. Run the Python script and Open **Google Docs** and place the cursor in the document withing the time delay where you want to start typing.
+2. Here the delay is 10 seconds.
 
   ```python
 file_path = "absolute/path/to/your/word_document.docx"
