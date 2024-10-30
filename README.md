@@ -33,7 +33,7 @@ Ensure that the Word document you want to use is saved and available. Note the f
 1. Run the Python script and Open **Google Docs** and place the cursor in the document withing the time delay where you want to start typing.
 
   ```python
-file_path = "D:/Python/pyautogui/pythonProject1/input.docx"
+file_path = "absolute/path/to/your/word_document.docx"
 time.sleep(10)
 text_with_styles = extract_text_with_styles(file_path)
 
